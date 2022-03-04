@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>set reminder</title>
+    <link rel="stylesheet" href="../style/reminder.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto:wght@100&display=swap"
+     rel="stylesheet">
+     <script src="../javascript/jquery-3.6.0.js" type="text/javascript"></script>
+  </head>
+  <body  style="font-family: 'Roboto', sans-serif;">
+    <div class="header">
+      <div class="form_header"><h3>Set Reminder</h3></div>
+      <div class="form_container">
+          <input type="text" class="course_name" placeholder="task name">
+          <input type="date" class="date_picker">
+          <div class="time">
+            <input type="number" class="hours" min="0" max="23" placeholder="hour">
+            <input type="number" class="minutes" min="0" max="59" placeholder="min">
+            <input type="number" class="seconds" min="0" max="59" placeholder="sec">
+          </div>
+          <input type="button" class="setReminderButton" value="set reminder">
+      </div>
+      <div class="valid"></div>
+    </div>
+
+    <div class="modal">
+      <span class="close">&times;</span>
+      <div class="content">
+          <div class="details">
+          </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="../javascript/reminder.js"></script>
+</html>

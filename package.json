@@ -1,0 +1,21 @@
+{
+  "name": "tempo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Time",
+    "scheduler"
+  ],
+  "author": "Cole",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-wix-msi": "^3.2.0"
+  },
+  "dependencies": {
+    "electron": "^13.1.8"
+  }
+}
