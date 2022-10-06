@@ -1,5 +1,5 @@
 # tempo
-Student course schedule management
+Student course schedule management created with electron js
 
 I created this application to manage my course task schedules. The update will include webpack to make it more clean. feel free to fork and edit it.
 
